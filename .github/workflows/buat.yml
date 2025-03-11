@@ -1,8 +1,7 @@
 on:
   push:
     branch:
-      -main
-
+      - main
 jobs:
   build:
   name: build app
@@ -10,7 +9,6 @@ jobs:
   steps:
     name: menampilkan teks
     run: echo "ini step build"
-    
 testing:
 build:
   name: build test
@@ -18,7 +16,6 @@ build:
     steps:
     name: menampilkan teks
     run:  echo "ini step test
-  
 deployment:
 build:
   name: build deployment
