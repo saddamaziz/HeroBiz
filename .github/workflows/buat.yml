@@ -9,26 +9,20 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     name: menampilkan teks
-    run: / 
-    echo "ini step build"
-    echo "ini step build"
-    echo "ini step build"
+    run: echo "ini step build"
     
 testing:
 build:
   name: build test
   runs-on: ubuntu-latest
-  steps:
+    steps:
     name: menampilkan teks
-    run:  echo "ini step test"
+    run:  echo "ini step test
   
 deployment:
 build:
   name: build deployment
   runs-on: ubuntu-latest
-  steps:
+    steps:
     name: menampilkan deployment
-    run: / 
-    echo "ini step build"
-    echo "ini step build"
-    echo "ini step build"
+    run: echo "ini step build"
