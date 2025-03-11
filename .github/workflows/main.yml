@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: menampilkan teks
         run: echo "ini step build"
-  testing:
+  test:
     name: test app
     runs-on: ubuntu-latest
     steps:
