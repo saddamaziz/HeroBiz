@@ -10,14 +10,12 @@ jobs:
     name: menampilkan teks
     run: echo "ini step build"
 testing:
-  build:
   name: test app
   runs-on: ubuntu-latest
   steps:
     name: menampilkan teks
     run:  echo "ini step test
 deployment:
-  build:
   name: deploy app
   runs-on: ubuntu-latest
   steps:
