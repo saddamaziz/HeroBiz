@@ -6,7 +6,7 @@ on:
 jobs:
   build:
   name: build app
-  runs-as: ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
     name: menampilkan teks
     run: / 
@@ -17,7 +17,7 @@ jobs:
 testing:
 build:
   name: build test
-  runs-as: ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
     name: menampilkan teks
     run:  echo "ini step test"
@@ -25,7 +25,7 @@ build:
 deployment:
 build:
   name: build deployment
-  runs-as: ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
     name: menampilkan deployment
     run: / 
